@@ -37,7 +37,13 @@ const HeroSection = () => {
                 <a href="#projects">See My Work</a>
               </Button>
               <Button variant="outline" className="border-gray-300" asChild>
-                <a href="https://drive.google.com/file/d/11bVvNNbpnV-tlbkOnyMvBLXvgwEakC2b/view?usp=sharing">My Resume</a>
+                <a
+                  href="https://drive.google.com/file/d/11bVvNNbpnV-tlbkOnyMvBLXvgwEakC2b/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  My Resume
+                </a>
               </Button>
             </div>
           </div>

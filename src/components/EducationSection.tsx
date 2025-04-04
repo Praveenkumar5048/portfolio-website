@@ -9,6 +9,7 @@ interface EducationItem {
   field: string;
   period: string;
   location: string;
+  image : string
 }
 
 const educationData: EducationItem[] = [
@@ -18,6 +19,16 @@ const educationData: EducationItem[] = [
     field: "Information Technology",
     period: "December 2022 - May 2026",
     location: "Surathkal, Karnataka",
+    image: "/images/NITK-logo.png"
+    
+  },
+  {
+    institution: "Sainik School Bijapur",
+    degree: "6th to 12th",
+    field: "CBSE",
+    period: "June 2014 - March 2021",
+    location: "Vijayapur, Karnataka",
+    image: "/images/ssbj-logo.png"
   },
 ];
 
@@ -58,7 +69,7 @@ const EducationSection = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="w-16 h-16">
-                      <img src="/images/NITK-logo.png" alt="NITK Logo" className="w-full h-auto object-contain" />
+                      <img src={item.image} alt="NITK Logo" className="w-full h-auto object-contain" />
                     </div>
                     <div>
                       <h3 className="font-bold text-xl mb-1">{item.institution}</h3>
