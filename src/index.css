@@ -102,6 +102,7 @@
   .gradient-text {
     @apply bg-gradient-to-r from-portfolio-blue to-portfolio-purple bg-clip-text text-transparent;
   }
+  
 }
 
 html {

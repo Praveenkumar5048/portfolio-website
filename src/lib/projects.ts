@@ -33,6 +33,22 @@ export const projects: ProjectCardProps[] = [
       imageSrc: "/images/tweethub.png"
     },
     {
+      title: "Kannada kids",
+      description: "A web-based interactive platform for Nursery children to learn Kannada alphabets through tracing, speech guidance, and gamified exercises. ",
+      technologies: ["TypeScript", "Tailwind CSS"],
+      githubUrl: "https://github.com/Praveenkumar5048/KannadaKids",
+      demoUrl: "https://kannada-kids.vercel.app/",
+      imageSrc: "/images/kannadakids.png"
+    },
+    {
+      title: "Credit Risk",
+      description: "Credit Risk Assessment ML model. The system not only predicts whether a borrower is likely to default, but also suggests Optimized Loan Amount ",
+      technologies: ["Flask", "React"],
+      githubUrl: "https://github.com/Praveenkumar5048/CreditRisk-Prediction",
+      demoUrl: "https://credit-risk-prediction-rho.vercel.app/",
+      imageSrc: "/images/creditrisk.png"
+    },
+    {
         title: "AutoTab Group",
         description: "Chrome Extension designed to automatically group and organize tabs from the same website under a single, identifiable tab group. ",
         technologies: ["HTML", "Javascript", "ChromeTab API"],
@@ -42,9 +58,9 @@ export const projects: ProjectCardProps[] = [
     {
         title: "CEMS Module",
         description: "Club Event Management System is a comprehensive web application built to streamline event organization within clubs or organizations",
-        technologies: ["Tailwind CSS", "Nextjs", "Node", "Mongodb"],
+        technologies: ["Nextjs", "Tailwind CSS", "Node", "Mongodb"],
         githubUrl: "https://github.com/Praveenkumar5048/CEMS",
-        imageSrc: "/images/placeholder.svg"
+        imageSrc: "/images/cems.png"
     },
     {
         title: "CrowdChain",
@@ -58,6 +74,6 @@ export const projects: ProjectCardProps[] = [
         description: "This web application designed to help you track your favorite cricket teams' ongoing matches, view match results, and check upcoming schedules",
         technologies: ["React", "CSS", "Public API"],
         githubUrl: "https://github.com/Praveenkumar5048/sports-tracker",
-        imageSrc: "/images/placeholder.svg"
+        imageSrc: "/images/sportstrack.png"
     },
 ];

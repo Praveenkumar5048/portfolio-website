@@ -50,7 +50,7 @@ const EducationSection = () => {
 
   return (
     <section id="education" className="section bg-gray-50 py-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12">
         <h2 className="section-heading text-center">My <span className="gradient-text">Education</span></h2>
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-10">
           My academic background has equipped me with strong theoretical knowledge and practical skills in computer science and engineering.

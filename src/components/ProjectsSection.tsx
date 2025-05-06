@@ -10,7 +10,7 @@ import ProjectCard from "./ProjectCard";
 const ProjectsSection = () => {
   return (
     <section id="projects" className="section">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12">
         <h2 className="section-heading text-center">Featured <span className="gradient-text">Projects</span></h2>
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-10">
           Here's a selection of projects that showcase my skills and expertise in web development.

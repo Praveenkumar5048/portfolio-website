@@ -36,7 +36,7 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({ title, skills }) => {
 const SkillsSection: React.FC = () => {
   return (
     <section id="skills" className="section bg-gray-50">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <h2 className="section-heading text-center">
           Technical <span className="gradient-text">Skills</span>
         </h2>

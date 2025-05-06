@@ -22,7 +22,7 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="section min-h-screen flex items-center pt-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 sm:px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="order-2 lg:order-1 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-heading">
