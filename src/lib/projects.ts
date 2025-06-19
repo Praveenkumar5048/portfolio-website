@@ -20,7 +20,7 @@ export const projects: ProjectCardProps[] = [
     {
       title: "FundVerify",
       description: "Automated Decentralised Government Fund Allocation and AI Verification.",
-      technologies: ["TypeScript", "Tailwind CSS", "Solidity", "Python"],
+      technologies: ["TypeScript", "Tailwind CSS", "Solidity", "Python", "IPFS"],
       githubUrl: "https://github.com/Praveenkumar5048/Public-Fund-Management",
       demoUrl: "https://www.youtube.com/watch?v=mUQlpHkGYsg",
       imageSrc: "/images/FundVerfiy.png"
